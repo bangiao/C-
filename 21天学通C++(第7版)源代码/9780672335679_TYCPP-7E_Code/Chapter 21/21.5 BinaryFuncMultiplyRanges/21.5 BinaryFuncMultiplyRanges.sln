@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21.5 BinaryFuncMultiplyRanges", "21.5 BinaryFuncMultiplyRanges\21.5 BinaryFuncMultiplyRanges.vcxproj", "{BB181274-A2E8-483A-A75F-0515A9AD42F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB181274-A2E8-483A-A75F-0515A9AD42F7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB181274-A2E8-483A-A75F-0515A9AD42F7}.Debug|Win32.Build.0 = Debug|Win32
+		{BB181274-A2E8-483A-A75F-0515A9AD42F7}.Release|Win32.ActiveCfg = Release|Win32
+		{BB181274-A2E8-483A-A75F-0515A9AD42F7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

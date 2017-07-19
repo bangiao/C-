@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24.7 PriorityQueueWithPredicate", "24.7 PriorityQueueWithPredicate\24.7 PriorityQueueWithPredicate.vcxproj", "{0732D0F9-1882-4D2B-AD55-851B0384A189}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0732D0F9-1882-4D2B-AD55-851B0384A189}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0732D0F9-1882-4D2B-AD55-851B0384A189}.Debug|Win32.Build.0 = Debug|Win32
+		{0732D0F9-1882-4D2B-AD55-851B0384A189}.Release|Win32.ActiveCfg = Release|Win32
+		{0732D0F9-1882-4D2B-AD55-851B0384A189}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

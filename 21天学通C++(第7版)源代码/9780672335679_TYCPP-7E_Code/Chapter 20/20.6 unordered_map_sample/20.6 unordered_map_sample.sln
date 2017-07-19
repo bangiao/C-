@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.6 unordered_map_sample", "20.6 unordered_map_sample\20.6 unordered_map_sample.vcxproj", "{F1BAE056-3D90-42F9-8885-5BA9BF3DFD43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1BAE056-3D90-42F9-8885-5BA9BF3DFD43}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1BAE056-3D90-42F9-8885-5BA9BF3DFD43}.Debug|Win32.Build.0 = Debug|Win32
+		{F1BAE056-3D90-42F9-8885-5BA9BF3DFD43}.Release|Win32.ActiveCfg = Release|Win32
+		{F1BAE056-3D90-42F9-8885-5BA9BF3DFD43}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

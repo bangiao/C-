@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "纯虚函数和抽象类", "纯虚函数和抽象类\纯虚函数和抽象类.vcxproj", "{7F9122B7-A2EB-4A67-9A02-C1D7821EAF0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F9122B7-A2EB-4A67-9A02-C1D7821EAF0A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F9122B7-A2EB-4A67-9A02-C1D7821EAF0A}.Debug|Win32.Build.0 = Debug|Win32
+		{7F9122B7-A2EB-4A67-9A02-C1D7821EAF0A}.Release|Win32.ActiveCfg = Release|Win32
+		{7F9122B7-A2EB-4A67-9A02-C1D7821EAF0A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

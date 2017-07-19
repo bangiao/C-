@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[操作符重载] =号操作符为什么知道新的类型进行复制", "[操作符重载] =号操作符为什么知道新的类型进行复制\[操作符重载] =号操作符为什么知道新的类型进行复制.vcxproj", "{3C5F451F-39D9-4CC1-8E23-6F8CDE87EAE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C5F451F-39D9-4CC1-8E23-6F8CDE87EAE9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3C5F451F-39D9-4CC1-8E23-6F8CDE87EAE9}.Debug|Win32.Build.0 = Debug|Win32
+		{3C5F451F-39D9-4CC1-8E23-6F8CDE87EAE9}.Release|Win32.ActiveCfg = Release|Win32
+		{3C5F451F-39D9-4CC1-8E23-6F8CDE87EAE9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

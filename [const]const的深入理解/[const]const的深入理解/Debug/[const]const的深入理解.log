@@ -1,0 +1,4 @@
+﻿  源.cpp
+d:\devolop\c++\[const]const的深入理解\[const]const的深入理解\源.cpp(10): warning C4172: 返回局部变量或临时变量的地址
+  [const]const的深入理解.vcxproj -> D:\devolop\c++\[const]const的深入理解\Debug\[const]const的深入理解.exe
+  [const]const的深入理解.vcxproj -> D:\devolop\c++\[const]const的深入理解\Debug\[const]const的深入理解.pdb (Partial PDB)

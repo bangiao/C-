@@ -1,0 +1,209 @@
+在高效C++编程中看到一个不错的内存池实现方案，这里共享下，大家看看有什么不足。
+代码很简单，如下：
+template<typename T>
+class CMemoryPool
+{
+    public:
+        enum { EXPANSION_SIZE = 32};
+
+        CMemoryPool(unsigned int nItemCount = EXPANSION_SIZE)
+        {
+            ExpandFreeList(nItemCount);
+        }
+       
+        ~CMemoryPool()
+        {
+            //free all memory in the list
+            CMemoryPool<T>* pNext = NULL;
+            for(pNext = m_pFreeList; pNext != NULL; pNext = m_pFreeList)
+            {
+                m_pFreeList = m_pFreeList->m_pFreeList;
+                delete [](char*)pNext;
+            }
+        }
+
+        void* Alloc(unsigned int /*size*/)
+        {
+            if(m_pFreeList == NULL)
+            {
+                ExpandFreeList();
+            }
+           
+            //get free memory from head
+            CMemoryPool<T>* pHead = m_pFreeList;
+            m_pFreeList = m_pFreeList->m_pFreeList;
+            return pHead;
+        }
+
+        void Free(void* p)
+        {
+            //push the free memory back to list
+            CMemoryPool<T>* pHead = static_cast<CMemoryPool<T>*>(p);
+            pHead->m_pFreeList = m_pFreeList;
+            m_pFreeList = pHead;
+        }
+
+    protected:
+        //allocate memory and push to the list
+        void ExpandFreeList(unsigned nItemCount = EXPANSION_SIZE)
+        {
+            unsigned int nSize = sizeof(T) > sizeof(CMemoryPool<T>*) ? sizeof(T) : sizeof(CMemoryPool<T>*);
+            CMemoryPool<T>* pLastItem = static_cast<CMemoryPool<T>*>(static_cast<void*>(new char[nSize]));
+            m_pFreeList = pLastItem;
+            for(int i=0; i<nItemCount-1; ++i)
+            {
+                pLastItem->m_pFreeList = static_cast<CMemoryPool<T>*>(static_cast<void*>(new char[nSize]));
+                pLastItem = pLastItem->m_pFreeList;
+            }
+
+            pLastItem->m_pFreeList = NULL;
+        }
+
+    private:
+        CMemoryPool<T>* m_pFreeList;
+};
+
+它的实现思想就是每次从List的头上取内存， 如果取不到则重新分配一定数量； 用完后把内存放回List头部，这样的话效率很高，因为每次List上可以取到的话，肯定是空闲的内存。
+
+当然上面的代码只是针对单线程的，要支持多线程的话也很简单，外面加一层就可以了，
+代码如下：
+class CCriticalSection
+{
+public:
+    CCriticalSection()
+    {
+        InitializeCriticalSection(&m_cs);
+    }
+
+    ~CCriticalSection()
+    {
+        DeleteCriticalSection(&m_cs);
+    }
+
+    void Lock()
+    {
+        EnterCriticalSection(&m_cs);
+    }
+
+    void Unlock()
+    {
+        LeaveCriticalSection(&m_cs);
+    }
+
+protected:
+    CRITICAL_SECTION m_cs;
+};
+
+template<typename POOLTYPE, typename LOCKTYPE>
+class CMTMemoryPool
+{
+    public:
+        void* Alloc(unsigned int size)
+        {
+            void* p = NULL;
+            m_lock.Lock();
+            p = m_pool.Alloc(size);
+            m_lock.Unlock();
+
+            return p;
+        }
+
+        void Free(void* p)
+        {
+            m_lock.Lock();
+            m_pool.Free(p);
+            m_lock.Unlock();   
+        }
+
+    private:
+        POOLTYPE m_pool;
+        LOCKTYPE m_lock;
+};
+
+这是我的测试代码：
+#include <iostream>
+#include <windows.h>
+
+using namespace std;
+
+#include "MemoryPool.h"
+#include "MTMemoryPool.h"
+
+class CTest
+{
+public:
+    int m_n;
+    int m_n1;
+
+    void* operator new(size_t size)
+    {
+        void* p = s_pool->Alloc(size);
+        return p;
+    }
+
+    void operator delete(void* p, size_t size)
+    {
+        s_pool->Free(p);
+    }
+
+    static void NewPool()
+    {
+        //s_pool = new CMemoryPool<CTest>;
+        s_pool = new CMTMemoryPool<CMemoryPool<CTest>, CCriticalSection>;
+    }
+
+    static void DeletePool()
+    {
+        delete s_pool;
+        s_pool = NULL;
+    }
+   
+    //static CMemoryPool<CTest>* s_pool;
+    static CMTMemoryPool<CMemoryPool<CTest>, CCriticalSection>* s_pool;
+};
+
+//CMemoryPool<CTest>* CTest::s_pool = NULL;
+CMTMemoryPool<CMemoryPool<CTest>, CCriticalSection>* CTest::s_pool = NULL;
+
+void testFun()
+{
+    int i;
+    const int nLoop = 10;
+    const int nCount = 10000;
+   
+    for(int j = 0; j<nLoop; ++j)
+    {
+        typedef CTest* LPTest;
+        LPTest arData[nCount];
+        for(i=0;i <nCount; ++i)
+        {
+            arData[i] = new CTest;
+        }
+
+        for(i=0;i <nCount; ++i)
+        {
+            delete arData[i];
+        }
+    }
+}
+
+int main(int argc, char* argv[])
+{
+    {
+        unsigned int dwStartTickCount = GetTickCount();
+
+        CTest::NewPool();
+
+        testFun();
+       
+        CTest::DeletePool();
+       
+        cout << "total cost" << GetTickCount() - dwStartTickCount << endl;
+    }
+
+
+    system("pause");
+
+    return 0;
+}
+在我机器上测试结果比系统默认的CRT实现高效N倍。

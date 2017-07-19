@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.1 Functions_ComputingAreaCircumference", "7.1 Functions_ComputingAreaCircumference\7.1 Functions_ComputingAreaCircumference.vcxproj", "{64AE2D0E-DF1A-4A0E-9C30-65CE1944987C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64AE2D0E-DF1A-4A0E-9C30-65CE1944987C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{64AE2D0E-DF1A-4A0E-9C30-65CE1944987C}.Debug|Win32.Build.0 = Debug|Win32
+		{64AE2D0E-DF1A-4A0E-9C30-65CE1944987C}.Release|Win32.ActiveCfg = Release|Win32
+		{64AE2D0E-DF1A-4A0E-9C30-65CE1944987C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

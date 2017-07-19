@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[探索]栈和堆的开口方向", "[探索]栈和堆的开口方向\[探索]栈和堆的开口方向.vcxproj", "{31E431B7-31CE-4C60-9ED0-842291DA3907}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31E431B7-31CE-4C60-9ED0-842291DA3907}.Debug|Win32.ActiveCfg = Debug|Win32
+		{31E431B7-31CE-4C60-9ED0-842291DA3907}.Debug|Win32.Build.0 = Debug|Win32
+		{31E431B7-31CE-4C60-9ED0-842291DA3907}.Release|Win32.ActiveCfg = Release|Win32
+		{31E431B7-31CE-4C60-9ED0-842291DA3907}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

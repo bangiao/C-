@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 Operators_Logical_AND_OR", "5.5 Operators_Logical_AND_OR\5.5 Operators_Logical_AND_OR.vcxproj", "{706266FB-28AC-43A1-B9CF-047909D1F65F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{706266FB-28AC-43A1-B9CF-047909D1F65F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{706266FB-28AC-43A1-B9CF-047909D1F65F}.Debug|Win32.Build.0 = Debug|Win32
+		{706266FB-28AC-43A1-B9CF-047909D1F65F}.Release|Win32.ActiveCfg = Release|Win32
+		{706266FB-28AC-43A1-B9CF-047909D1F65F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

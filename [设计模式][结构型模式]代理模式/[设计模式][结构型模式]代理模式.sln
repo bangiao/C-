@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[设计模式][结构型模式]代理模式", "[设计模式][结构型模式]代理模式\[设计模式][结构型模式]代理模式.vcxproj", "{7F0B1C80-2C59-4D94-866A-A84F1CE9E2AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F0B1C80-2C59-4D94-866A-A84F1CE9E2AC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F0B1C80-2C59-4D94-866A-A84F1CE9E2AC}.Debug|Win32.Build.0 = Debug|Win32
+		{7F0B1C80-2C59-4D94-866A-A84F1CE9E2AC}.Release|Win32.ActiveCfg = Release|Win32
+		{7F0B1C80-2C59-4D94-866A-A84F1CE9E2AC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

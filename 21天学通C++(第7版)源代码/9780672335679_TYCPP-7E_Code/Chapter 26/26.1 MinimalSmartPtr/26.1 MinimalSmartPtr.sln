@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "26.1 MinimalSmartPtr", "26.1 MinimalSmartPtr\26.1 MinimalSmartPtr.vcxproj", "{5535028A-5BCE-4BD5-A334-F381AF0E72C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5535028A-5BCE-4BD5-A334-F381AF0E72C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5535028A-5BCE-4BD5-A334-F381AF0E72C6}.Debug|Win32.Build.0 = Debug|Win32
+		{5535028A-5BCE-4BD5-A334-F381AF0E72C6}.Release|Win32.ActiveCfg = Release|Win32
+		{5535028A-5BCE-4BD5-A334-F381AF0E72C6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[算法]快速排序法", "[算法]快速排序法\[算法]快速排序法.vcxproj", "{F817E689-ED14-4E6F-B983-8CAD9BB61761}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F817E689-ED14-4E6F-B983-8CAD9BB61761}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F817E689-ED14-4E6F-B983-8CAD9BB61761}.Debug|Win32.Build.0 = Debug|Win32
+		{F817E689-ED14-4E6F-B983-8CAD9BB61761}.Release|Win32.ActiveCfg = Release|Win32
+		{F817E689-ED14-4E6F-B983-8CAD9BB61761}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

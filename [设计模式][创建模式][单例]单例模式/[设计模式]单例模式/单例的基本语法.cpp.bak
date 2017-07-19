@@ -1,0 +1,85 @@
+#define  _CRT_SECURE_NO_WARNINGS
+#include <iostream>
+using namespace std;
+
+//懒汉式单例
+//
+
+//单例模式步骤
+//1. 让构造函数私有化
+//2. 在类中添加一个纸箱这个类的指针
+//3. 提供全局访问点
+
+class Singelton
+{
+public:
+	static Singelton *GetSingelton()		//3. 
+	{
+		if (NULL == Singelton::singel)		//核心: 每次都要判断 是singel 实例是否存在
+		{
+			Singelton::singel = new Singelton;
+		}
+		return singel;
+	}
+
+	static void DestroySingelton()
+	{
+		if (NULL != singel)
+		{
+			delete singel;
+			singel = NULL;
+		}
+	}
+
+// 	~Singelton()
+// 	{
+// 		if (NULL != singel)
+// 		{
+//  			delete singel;
+// 			singel = NULL;
+// 		}
+// 	}
+
+protected:
+private:
+	Singelton()		//1. 
+	{
+		;
+	}
+private:
+	static Singelton *singel;		//2. 
+};
+
+Singelton *Singelton::singel = NULL;
+
+int main01()
+{
+	int ret = 0;
+	Singelton *s1 = Singelton::GetSingelton();
+
+	Singelton *s2 = Singelton::GetSingelton();
+
+	if (s1 == s2)
+	{
+		cout << "s1 == s2" << endl;
+	}
+	else
+	{
+		cout << "s1 != s2" << endl;
+	}
+
+	s1->DestroySingelton();
+
+//	delete s1;		//事实上这里的 delete s1 事实上已经将 s1 delete 如果再次调用析构函数则又得delete s1(singel)
+
+	return ret;
+}
+
+int main(int argc, char *argv[])
+{
+	int ret = 0;
+	main01();
+	
+	system("pause");
+	return ret;
+}

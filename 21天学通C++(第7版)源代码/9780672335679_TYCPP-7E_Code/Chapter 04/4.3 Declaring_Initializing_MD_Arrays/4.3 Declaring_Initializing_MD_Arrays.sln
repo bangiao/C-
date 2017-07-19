@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.3 Declaring_Initializing_MD_Arrays", "4.3 Declaring_Initializing_MD_Arrays\4.3 Declaring_Initializing_MD_Arrays.vcxproj", "{3ED75581-FA93-4173-B918-B9CBCDC5FC62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ED75581-FA93-4173-B918-B9CBCDC5FC62}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3ED75581-FA93-4173-B918-B9CBCDC5FC62}.Debug|Win32.Build.0 = Debug|Win32
+		{3ED75581-FA93-4173-B918-B9CBCDC5FC62}.Release|Win32.ActiveCfg = Release|Win32
+		{3ED75581-FA93-4173-B918-B9CBCDC5FC62}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

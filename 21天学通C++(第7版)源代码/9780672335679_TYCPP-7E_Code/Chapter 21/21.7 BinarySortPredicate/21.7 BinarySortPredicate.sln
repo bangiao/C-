@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21.7 BinarySortPredicate", "21.7 BinarySortPredicate\21.7 BinarySortPredicate.vcxproj", "{A5180616-7B94-4043-A487-424E99E3C6BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5180616-7B94-4043-A487-424E99E3C6BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A5180616-7B94-4043-A487-424E99E3C6BA}.Debug|Win32.Build.0 = Debug|Win32
+		{A5180616-7B94-4043-A487-424E99E3C6BA}.Release|Win32.ActiveCfg = Release|Win32
+		{A5180616-7B94-4043-A487-424E99E3C6BA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

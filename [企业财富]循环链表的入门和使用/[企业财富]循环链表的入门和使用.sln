@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[企业财富]循环链表的入门和使用", "[企业财富]循环链表的入门和使用\[企业财富]循环链表的入门和使用.vcxproj", "{3A1A7E83-1F4B-4488-A1DA-9AE634C823D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A1A7E83-1F4B-4488-A1DA-9AE634C823D8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A1A7E83-1F4B-4488-A1DA-9AE634C823D8}.Debug|Win32.Build.0 = Debug|Win32
+		{3A1A7E83-1F4B-4488-A1DA-9AE634C823D8}.Release|Win32.ActiveCfg = Release|Win32
+		{3A1A7E83-1F4B-4488-A1DA-9AE634C823D8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

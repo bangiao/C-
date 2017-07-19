@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.8 Pointers_Using_new_delete_char_array", "8.8 Pointers_Using_new_delete_char_array\8.8 Pointers_Using_new_delete_char_array.vcxproj", "{E83E7797-26C3-4075-AF4A-B00CA4B974FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E83E7797-26C3-4075-AF4A-B00CA4B974FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E83E7797-26C3-4075-AF4A-B00CA4B974FE}.Debug|Win32.Build.0 = Debug|Win32
+		{E83E7797-26C3-4075-AF4A-B00CA4B974FE}.Release|Win32.ActiveCfg = Release|Win32
+		{E83E7797-26C3-4075-AF4A-B00CA4B974FE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

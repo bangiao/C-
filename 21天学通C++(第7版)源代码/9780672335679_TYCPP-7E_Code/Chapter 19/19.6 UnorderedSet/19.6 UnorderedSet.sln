@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19.6 UnorderedSet", "19.6 UnorderedSet\19.6 UnorderedSet.vcxproj", "{5F39E2C0-E06B-4864-BBBA-D552EF48F8D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F39E2C0-E06B-4864-BBBA-D552EF48F8D4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F39E2C0-E06B-4864-BBBA-D552EF48F8D4}.Debug|Win32.Build.0 = Debug|Win32
+		{5F39E2C0-E06B-4864-BBBA-D552EF48F8D4}.Release|Win32.ActiveCfg = Release|Win32
+		{5F39E2C0-E06B-4864-BBBA-D552EF48F8D4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

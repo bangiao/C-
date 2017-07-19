@@ -1,0 +1,9 @@
+﻿  源.cpp
+c:\users\luv letter\desktop\string\string\源.cpp(21): warning C4297: “String::String”: 假定函数不引发异常，但确实发生了
+  c:\users\luv letter\desktop\string\string\源.cpp(21): note: 在函数上指定了 __declspec(nothrow)、throw()、noexcept(true)或 noexcept
+c:\users\luv letter\desktop\string\string\源.cpp(34): warning C4297: “String::String”: 假定函数不引发异常，但确实发生了
+  c:\users\luv letter\desktop\string\string\源.cpp(34): note: 在函数上指定了 __declspec(nothrow)、throw()、noexcept(true)或 noexcept
+c:\users\luv letter\desktop\string\string\源.cpp(51): warning C4297: “String::operator =”: 假定函数不引发异常，但确实发生了
+  c:\users\luv letter\desktop\string\string\源.cpp(51): note: 在函数上指定了 __declspec(nothrow)、throw()、noexcept(true)或 noexcept
+  string.vcxproj -> C:\Users\luv letter\Desktop\string\Debug\string.exe
+  string.vcxproj -> C:\Users\luv letter\Desktop\string\Debug\string.pdb (Partial PDB)

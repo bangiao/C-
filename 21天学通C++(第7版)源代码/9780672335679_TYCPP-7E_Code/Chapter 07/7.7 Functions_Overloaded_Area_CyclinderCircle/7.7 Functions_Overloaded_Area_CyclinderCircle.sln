@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.7 Functions_Overloaded_Area_CyclinderCircle", "7.7 Functions_Overloaded_Area_CyclinderCircle\7.7 Functions_Overloaded_Area_CyclinderCircle.vcxproj", "{85B1058B-74A6-4332-8D34-570692C76025}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85B1058B-74A6-4332-8D34-570692C76025}.Debug|Win32.ActiveCfg = Debug|Win32
+		{85B1058B-74A6-4332-8D34-570692C76025}.Debug|Win32.Build.0 = Debug|Win32
+		{85B1058B-74A6-4332-8D34-570692C76025}.Release|Win32.ActiveCfg = Release|Win32
+		{85B1058B-74A6-4332-8D34-570692C76025}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

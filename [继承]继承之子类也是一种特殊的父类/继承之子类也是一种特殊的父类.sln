@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "继承之子类也是一种特殊的父类", "继承之子类也是一种特殊的父类\继承之子类也是一种特殊的父类.vcxproj", "{C5F0B930-5C5A-4C10-8CDD-177EF5DFC7EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F0B930-5C5A-4C10-8CDD-177EF5DFC7EC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C5F0B930-5C5A-4C10-8CDD-177EF5DFC7EC}.Debug|Win32.Build.0 = Debug|Win32
+		{C5F0B930-5C5A-4C10-8CDD-177EF5DFC7EC}.Release|Win32.ActiveCfg = Release|Win32
+		{C5F0B930-5C5A-4C10-8CDD-177EF5DFC7EC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

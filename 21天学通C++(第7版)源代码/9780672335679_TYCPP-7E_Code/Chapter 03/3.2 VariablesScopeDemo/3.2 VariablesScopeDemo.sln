@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.2 VariablesScopeDemo", "3.2 VariablesScopeDemo\3.2 VariablesScopeDemo.vcxproj", "{8A8B43A9-7187-456A-8DA7-87D2F4AE4891}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A8B43A9-7187-456A-8DA7-87D2F4AE4891}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8A8B43A9-7187-456A-8DA7-87D2F4AE4891}.Debug|Win32.Build.0 = Debug|Win32
+		{8A8B43A9-7187-456A-8DA7-87D2F4AE4891}.Release|Win32.ActiveCfg = Release|Win32
+		{8A8B43A9-7187-456A-8DA7-87D2F4AE4891}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+﻿  源.cpp
+d:\devolop\c++\[workspace]二维数组二分法查找检索\[workspace]二维数组二分法查找检索\源.cpp(28): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  [workspace]二维数组二分法查找检索.vcxproj -> D:\devolop\c++\[workspace]二维数组二分法查找检索\Debug\[workspace]二维数组二分法查找检索.exe
+  [workspace]二维数组二分法查找检索.vcxproj -> D:\devolop\c++\[workspace]二维数组二分法查找检索\Debug\[workspace]二维数组二分法查找检索.pdb (Partial PDB)

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.6 Pointers_sizeof_Test", "8.6 Pointers_sizeof_Test\8.6 Pointers_sizeof_Test.vcxproj", "{8A43E0F1-930A-4AF2-8E6D-4ACB6FC76AB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A43E0F1-930A-4AF2-8E6D-4ACB6FC76AB9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8A43E0F1-930A-4AF2-8E6D-4ACB6FC76AB9}.Debug|Win32.Build.0 = Debug|Win32
+		{8A43E0F1-930A-4AF2-8E6D-4ACB6FC76AB9}.Release|Win32.ActiveCfg = Release|Win32
+		{8A43E0F1-930A-4AF2-8E6D-4ACB6FC76AB9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

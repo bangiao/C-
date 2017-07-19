@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17.3 VectorInsert", "17.3 VectorInsert\17.3 VectorInsert.vcxproj", "{3BCDEDDC-38A8-4944-A5FD-BD4BBEFD42BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BCDEDDC-38A8-4944-A5FD-BD4BBEFD42BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3BCDEDDC-38A8-4944-A5FD-BD4BBEFD42BC}.Debug|Win32.Build.0 = Debug|Win32
+		{3BCDEDDC-38A8-4944-A5FD-BD4BBEFD42BC}.Release|Win32.ActiveCfg = Release|Win32
+		{3BCDEDDC-38A8-4944-A5FD-BD4BBEFD42BC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

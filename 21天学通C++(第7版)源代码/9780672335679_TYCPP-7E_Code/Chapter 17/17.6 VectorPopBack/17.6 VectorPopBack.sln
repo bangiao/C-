@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17.6 VectorPopBack", "17.6 VectorPopBack\17.6 VectorPopBack.vcxproj", "{46792A5F-482E-4D9D-A6CA-047D78D55A86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46792A5F-482E-4D9D-A6CA-047D78D55A86}.Debug|Win32.ActiveCfg = Debug|Win32
+		{46792A5F-482E-4D9D-A6CA-047D78D55A86}.Debug|Win32.Build.0 = Debug|Win32
+		{46792A5F-482E-4D9D-A6CA-047D78D55A86}.Release|Win32.ActiveCfg = Release|Win32
+		{46792A5F-482E-4D9D-A6CA-047D78D55A86}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

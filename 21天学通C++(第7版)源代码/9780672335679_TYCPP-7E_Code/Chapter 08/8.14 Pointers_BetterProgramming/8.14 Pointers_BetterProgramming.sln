@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.14 Pointers_BetterProgramming", "8.14 Pointers_BetterProgramming\8.14 Pointers_BetterProgramming.vcxproj", "{DDCCC3A9-5AD3-4D60-993F-72C900A12269}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDCCC3A9-5AD3-4D60-993F-72C900A12269}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DDCCC3A9-5AD3-4D60-993F-72C900A12269}.Debug|Win32.Build.0 = Debug|Win32
+		{DDCCC3A9-5AD3-4D60-993F-72C900A12269}.Release|Win32.ActiveCfg = Release|Win32
+		{DDCCC3A9-5AD3-4D60-993F-72C900A12269}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

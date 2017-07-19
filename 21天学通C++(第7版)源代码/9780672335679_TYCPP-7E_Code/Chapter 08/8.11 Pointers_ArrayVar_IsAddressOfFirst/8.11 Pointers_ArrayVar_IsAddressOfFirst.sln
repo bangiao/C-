@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.11 Pointers_ArrayVar_IsAddressOfFirst", "8.11 Pointers_ArrayVar_IsAddressOfFirst\8.11 Pointers_ArrayVar_IsAddressOfFirst.vcxproj", "{FF689080-4A84-4DC3-A63B-9852F54EF778}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF689080-4A84-4DC3-A63B-9852F54EF778}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FF689080-4A84-4DC3-A63B-9852F54EF778}.Debug|Win32.Build.0 = Debug|Win32
+		{FF689080-4A84-4DC3-A63B-9852F54EF778}.Release|Win32.ActiveCfg = Release|Win32
+		{FF689080-4A84-4DC3-A63B-9852F54EF778}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

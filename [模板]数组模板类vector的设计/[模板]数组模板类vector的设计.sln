@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[模板]数组模板类vector的设计", "[模板]数组模板类vector的设计\[模板]数组模板类vector的设计.vcxproj", "{873BBBA0-96F0-4636-9602-03A65865EC1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{873BBBA0-96F0-4636-9602-03A65865EC1C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{873BBBA0-96F0-4636-9602-03A65865EC1C}.Debug|Win32.Build.0 = Debug|Win32
+		{873BBBA0-96F0-4636-9602-03A65865EC1C}.Release|Win32.ActiveCfg = Release|Win32
+		{873BBBA0-96F0-4636-9602-03A65865EC1C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

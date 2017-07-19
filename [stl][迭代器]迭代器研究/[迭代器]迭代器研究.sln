@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[迭代器]迭代器研究", "[迭代器]迭代器研究\[迭代器]迭代器研究.vcxproj", "{B6D10F51-FE6B-4843-9C6A-53845CCA1634}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6D10F51-FE6B-4843-9C6A-53845CCA1634}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B6D10F51-FE6B-4843-9C6A-53845CCA1634}.Debug|Win32.Build.0 = Debug|Win32
+		{B6D10F51-FE6B-4843-9C6A-53845CCA1634}.Release|Win32.ActiveCfg = Release|Win32
+		{B6D10F51-FE6B-4843-9C6A-53845CCA1634}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

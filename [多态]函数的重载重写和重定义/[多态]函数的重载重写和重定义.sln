@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[多态]函数的重载重写和重定义", "[多态]函数的重载重写和重定义\[多态]函数的重载重写和重定义.vcxproj", "{FB18A5F3-A55F-4A8A-B6A9-06CDA8B7F94E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB18A5F3-A55F-4A8A-B6A9-06CDA8B7F94E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FB18A5F3-A55F-4A8A-B6A9-06CDA8B7F94E}.Debug|Win32.Build.0 = Debug|Win32
+		{FB18A5F3-A55F-4A8A-B6A9-06CDA8B7F94E}.Release|Win32.ActiveCfg = Release|Win32
+		{FB18A5F3-A55F-4A8A-B6A9-06CDA8B7F94E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

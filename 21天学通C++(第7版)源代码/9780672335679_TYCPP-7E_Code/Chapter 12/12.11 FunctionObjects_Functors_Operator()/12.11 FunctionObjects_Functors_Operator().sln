@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12.11 FunctionObjects_Functors_Operator()", "12.11 FunctionObjects_Functors_Operator()\12.11 FunctionObjects_Functors_Operator().vcxproj", "{775F726B-BD79-4813-8DE0-236BD789BCD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{775F726B-BD79-4813-8DE0-236BD789BCD1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{775F726B-BD79-4813-8DE0-236BD789BCD1}.Debug|Win32.Build.0 = Debug|Win32
+		{775F726B-BD79-4813-8DE0-236BD789BCD1}.Release|Win32.ActiveCfg = Release|Win32
+		{775F726B-BD79-4813-8DE0-236BD789BCD1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

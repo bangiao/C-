@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[模板]传递变量", "[模板]传递变量\[模板]传递变量.vcxproj", "{6BF693C6-0FDA-4BC4-9FAA-6460B2BE4459}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BF693C6-0FDA-4BC4-9FAA-6460B2BE4459}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6BF693C6-0FDA-4BC4-9FAA-6460B2BE4459}.Debug|Win32.Build.0 = Debug|Win32
+		{6BF693C6-0FDA-4BC4-9FAA-6460B2BE4459}.Release|Win32.ActiveCfg = Release|Win32
+		{6BF693C6-0FDA-4BC4-9FAA-6460B2BE4459}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
